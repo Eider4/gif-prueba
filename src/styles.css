@@ -1,0 +1,62 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(46, 46, 46);
+  width: 98%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  color: #000000;
+}
+h1 {
+  font-size: 40px;
+  margin: 30px 0;
+}
+h3 {
+  font-size: 40px;
+}
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: rgb(2, 2, 2);
+  font-size: 1.2rem;
+  outline: none;
+  width: 30%;
+  padding: 16px;
+  margin: 2% 5% 30px 3%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  scrollbar-color: #000 #000;
+  margin: 2% 5% 30px 3%;
+}
+
+.card-categories {
+  color: #fff;
+  background-color: black;
+}
+.card-categories h4 {
+  background-color: black;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: left;
+}
+.card-categories img {
+  background-color: black;
+  width: auto;
+  max-width: 300px;
+  height: 150px;
+}
